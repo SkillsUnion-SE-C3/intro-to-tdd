@@ -45,7 +45,7 @@ describe("makeHTML()", () => {
     expect(result).toContain(expectedHTMLString)
   })
 
-  it('turns turns all user objects to html strings', () => {
+  it('turns all user objects to html strings', () => {
     const users = [
       {
         name: "Linda",
